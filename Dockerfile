@@ -1,6 +1,7 @@
 # Set the base image to adoptopenjdk (or any other Java base image)
 # FROM registry.hub.docker.com/library/adoptopenjdk:11-jre-hotspot
-FROM docker.io/library/adoptopenjdk:11-jre-hotspot
+FROM docker.io/library/openjdk:8-jdk-alpine
+
 # Set the working directory in the container
 WORKDIR /app
 
